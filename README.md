@@ -6,6 +6,22 @@ A Retrieval-Augmented Generation (RAG) system designed to answer questions about
 
 This application is a full-stack web application that enables users to query course materials and receive intelligent, context-aware responses. It uses ChromaDB for vector storage, Google's Gemini Flash for AI generation, and provides a web interface for interaction.
 
+## 🧩 Features
+✅ Semantic search across course materials  
+✅ AI-generated, context-aware answers  
+✅ Easy-to-use web interface  
+✅ RESTful API for integrations  
+✅ Modular full-stack architecture (backend + frontend)
+
+## 🧱 Tech Stack
+| Layer | Technologies |
+|--------|--------------|
+| **Frontend** | HTML, CSS, JavaScript / React (optional) |
+| **Backend** | FastAPI, Python |
+| **Database** | ChromaDB (Vector Store) |
+| **AI Model** | Google Gemini Flash |
+| **Package Manager** | uv |
+
 
 ## Prerequisites
 
