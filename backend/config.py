@@ -9,7 +9,7 @@ load_dotenv()
 class Config:
     """Configuration settings for the RAG system"""
     # Google Gemini API settings
-    GEMINI_API_KEY: str = os.getenv("AIzaSyDWuDsPEn_NAkyrqJWckO4ba3sbC_gJeqY", "")
+    GEMINI_API_KEY: str = os.getenv("GEMINI API KEY", "")
     GEMINI_MODEL: str = "gemini-2.5-flash"
     
     # Embedding model settings
